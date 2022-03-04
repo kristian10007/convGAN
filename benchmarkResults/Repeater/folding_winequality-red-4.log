@@ -1,0 +1,701 @@
+
+
+///////////////////////////////////////////
+// Running Repeater on folding_winequality-red-4
+///////////////////////////////////////////
+
+Load 'data_input/folding_winequality-red-4'
+from pickle file
+Data loaded.
+-> Shuffling data
+### Start exercise for synthetic point generator
+
+====== Step 1/5 =======
+-> Shuffling data
+-> Spliting data to slices
+
+------ Step 1/5: Slice 1/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 186, 124
+LR fn, tp: 1, 10
+LR f1 score: 0.138
+LR cohens kappa score: 0.080
+LR average precision score: 0.094
+
+-> test with 'GB'
+GB tn, fp: 304, 6
+GB fn, tp: 10, 1
+GB f1 score: 0.111
+GB cohens kappa score: 0.087
+
+-> test with 'KNN'
+KNN tn, fp: 261, 49
+KNN fn, tp: 10, 1
+KNN f1 score: 0.033
+KNN cohens kappa score: -0.025
+
+
+------ Step 1/5: Slice 2/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 204, 106
+LR fn, tp: 3, 8
+LR f1 score: 0.128
+LR cohens kappa score: 0.070
+LR average precision score: 0.112
+
+-> test with 'GB'
+GB tn, fp: 296, 14
+GB fn, tp: 9, 2
+GB f1 score: 0.148
+GB cohens kappa score: 0.112
+
+-> test with 'KNN'
+KNN tn, fp: 266, 44
+KNN fn, tp: 7, 4
+KNN f1 score: 0.136
+KNN cohens kappa score: 0.085
+
+
+------ Step 1/5: Slice 3/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 168, 142
+LR fn, tp: 1, 10
+LR f1 score: 0.123
+LR cohens kappa score: 0.063
+LR average precision score: 0.148
+
+-> test with 'GB'
+GB tn, fp: 298, 12
+GB fn, tp: 7, 4
+GB f1 score: 0.296
+GB cohens kappa score: 0.267
+
+-> test with 'KNN'
+KNN tn, fp: 264, 46
+KNN fn, tp: 8, 3
+KNN f1 score: 0.100
+KNN cohens kappa score: 0.047
+
+
+------ Step 1/5: Slice 4/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 216, 94
+LR fn, tp: 6, 5
+LR f1 score: 0.091
+LR cohens kappa score: 0.031
+LR average precision score: 0.119
+
+-> test with 'GB'
+GB tn, fp: 293, 17
+GB fn, tp: 11, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.043
+
+-> test with 'KNN'
+KNN tn, fp: 265, 45
+KNN fn, tp: 8, 3
+KNN f1 score: 0.102
+KNN cohens kappa score: 0.049
+
+
+------ Step 1/5: Slice 5/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1196 synthetic samples
+-> test with 'LR'
+LR tn, fp: 209, 97
+LR fn, tp: 4, 5
+LR f1 score: 0.090
+LR cohens kappa score: 0.040
+LR average precision score: 0.225
+
+-> test with 'GB'
+GB tn, fp: 296, 10
+GB fn, tp: 8, 1
+GB f1 score: 0.100
+GB cohens kappa score: 0.071
+
+-> test with 'KNN'
+KNN tn, fp: 267, 39
+KNN fn, tp: 8, 1
+KNN f1 score: 0.041
+KNN cohens kappa score: -0.006
+
+
+====== Step 2/5 =======
+-> Shuffling data
+-> Spliting data to slices
+
+------ Step 2/5: Slice 1/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 186, 124
+LR fn, tp: 2, 9
+LR f1 score: 0.125
+LR cohens kappa score: 0.066
+LR average precision score: 0.130
+
+-> test with 'GB'
+GB tn, fp: 291, 19
+GB fn, tp: 8, 3
+GB f1 score: 0.182
+GB cohens kappa score: 0.143
+
+-> test with 'KNN'
+KNN tn, fp: 268, 42
+KNN fn, tp: 10, 1
+KNN f1 score: 0.037
+KNN cohens kappa score: -0.019
+
+
+------ Step 2/5: Slice 2/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 191, 119
+LR fn, tp: 3, 8
+LR f1 score: 0.116
+LR cohens kappa score: 0.056
+LR average precision score: 0.142
+
+-> test with 'GB'
+GB tn, fp: 305, 5
+GB fn, tp: 10, 1
+GB f1 score: 0.118
+GB cohens kappa score: 0.096
+
+-> test with 'KNN'
+KNN tn, fp: 270, 40
+KNN fn, tp: 10, 1
+KNN f1 score: 0.038
+KNN cohens kappa score: -0.016
+
+
+------ Step 2/5: Slice 3/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 191, 119
+LR fn, tp: 3, 8
+LR f1 score: 0.116
+LR cohens kappa score: 0.056
+LR average precision score: 0.164
+
+-> test with 'GB'
+GB tn, fp: 299, 11
+GB fn, tp: 10, 1
+GB f1 score: 0.087
+GB cohens kappa score: 0.053
+
+-> test with 'KNN'
+KNN tn, fp: 263, 47
+KNN fn, tp: 10, 1
+KNN f1 score: 0.034
+KNN cohens kappa score: -0.023
+
+
+------ Step 2/5: Slice 4/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 210, 100
+LR fn, tp: 5, 6
+LR f1 score: 0.103
+LR cohens kappa score: 0.043
+LR average precision score: 0.277
+
+-> test with 'GB'
+GB tn, fp: 298, 12
+GB fn, tp: 7, 4
+GB f1 score: 0.296
+GB cohens kappa score: 0.267
+
+-> test with 'KNN'
+KNN tn, fp: 271, 39
+KNN fn, tp: 7, 4
+KNN f1 score: 0.148
+KNN cohens kappa score: 0.099
+
+
+------ Step 2/5: Slice 5/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1196 synthetic samples
+-> test with 'LR'
+LR tn, fp: 205, 101
+LR fn, tp: 3, 6
+LR f1 score: 0.103
+LR cohens kappa score: 0.054
+LR average precision score: 0.095
+
+-> test with 'GB'
+GB tn, fp: 296, 10
+GB fn, tp: 7, 2
+GB f1 score: 0.190
+GB cohens kappa score: 0.163
+
+-> test with 'KNN'
+KNN tn, fp: 262, 44
+KNN fn, tp: 7, 2
+KNN f1 score: 0.073
+KNN cohens kappa score: 0.026
+
+
+====== Step 3/5 =======
+-> Shuffling data
+-> Spliting data to slices
+
+------ Step 3/5: Slice 1/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 215, 95
+LR fn, tp: 5, 6
+LR f1 score: 0.107
+LR cohens kappa score: 0.048
+LR average precision score: 0.118
+
+-> test with 'GB'
+GB tn, fp: 301, 9
+GB fn, tp: 11, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.032
+
+-> test with 'KNN'
+KNN tn, fp: 275, 35
+KNN fn, tp: 9, 2
+KNN f1 score: 0.083
+KNN cohens kappa score: 0.032
+
+
+------ Step 3/5: Slice 2/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 193, 117
+LR fn, tp: 2, 9
+LR f1 score: 0.131
+LR cohens kappa score: 0.073
+LR average precision score: 0.224
+
+-> test with 'GB'
+GB tn, fp: 295, 15
+GB fn, tp: 10, 1
+GB f1 score: 0.074
+GB cohens kappa score: 0.035
+
+-> test with 'KNN'
+KNN tn, fp: 267, 43
+KNN fn, tp: 10, 1
+KNN f1 score: 0.036
+KNN cohens kappa score: -0.020
+
+
+------ Step 3/5: Slice 3/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 202, 108
+LR fn, tp: 6, 5
+LR f1 score: 0.081
+LR cohens kappa score: 0.019
+LR average precision score: 0.078
+
+-> test with 'GB'
+GB tn, fp: 295, 15
+GB fn, tp: 10, 1
+GB f1 score: 0.074
+GB cohens kappa score: 0.035
+
+-> test with 'KNN'
+KNN tn, fp: 263, 47
+KNN fn, tp: 8, 3
+KNN f1 score: 0.098
+KNN cohens kappa score: 0.045
+
+
+------ Step 3/5: Slice 4/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 192, 118
+LR fn, tp: 2, 9
+LR f1 score: 0.130
+LR cohens kappa score: 0.072
+LR average precision score: 0.148
+
+-> test with 'GB'
+GB tn, fp: 304, 6
+GB fn, tp: 9, 2
+GB f1 score: 0.211
+GB cohens kappa score: 0.187
+
+-> test with 'KNN'
+KNN tn, fp: 273, 37
+KNN fn, tp: 9, 2
+KNN f1 score: 0.080
+KNN cohens kappa score: 0.028
+
+
+------ Step 3/5: Slice 5/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1196 synthetic samples
+-> test with 'LR'
+LR tn, fp: 197, 109
+LR fn, tp: 2, 7
+LR f1 score: 0.112
+LR cohens kappa score: 0.062
+LR average precision score: 0.108
+
+-> test with 'GB'
+GB tn, fp: 296, 10
+GB fn, tp: 8, 1
+GB f1 score: 0.100
+GB cohens kappa score: 0.071
+
+-> test with 'KNN'
+KNN tn, fp: 258, 48
+KNN fn, tp: 7, 2
+KNN f1 score: 0.068
+KNN cohens kappa score: 0.020
+
+
+====== Step 4/5 =======
+-> Shuffling data
+-> Spliting data to slices
+
+------ Step 4/5: Slice 1/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 197, 113
+LR fn, tp: 2, 9
+LR f1 score: 0.135
+LR cohens kappa score: 0.077
+LR average precision score: 0.312
+
+-> test with 'GB'
+GB tn, fp: 299, 11
+GB fn, tp: 11, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.035
+
+-> test with 'KNN'
+KNN tn, fp: 272, 38
+KNN fn, tp: 11, 0
+KNN f1 score: 0.000
+KNN cohens kappa score: -0.056
+
+
+------ Step 4/5: Slice 2/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 183, 127
+LR fn, tp: 3, 8
+LR f1 score: 0.110
+LR cohens kappa score: 0.049
+LR average precision score: 0.203
+
+-> test with 'GB'
+GB tn, fp: 299, 11
+GB fn, tp: 9, 2
+GB f1 score: 0.167
+GB cohens kappa score: 0.135
+
+-> test with 'KNN'
+KNN tn, fp: 271, 39
+KNN fn, tp: 8, 3
+KNN f1 score: 0.113
+KNN cohens kappa score: 0.062
+
+
+------ Step 4/5: Slice 3/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 212, 98
+LR fn, tp: 4, 7
+LR f1 score: 0.121
+LR cohens kappa score: 0.063
+LR average precision score: 0.081
+
+-> test with 'GB'
+GB tn, fp: 298, 12
+GB fn, tp: 9, 2
+GB f1 score: 0.160
+GB cohens kappa score: 0.126
+
+-> test with 'KNN'
+KNN tn, fp: 276, 34
+KNN fn, tp: 11, 0
+KNN f1 score: 0.000
+KNN cohens kappa score: -0.055
+
+
+------ Step 4/5: Slice 4/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 200, 110
+LR fn, tp: 1, 10
+LR f1 score: 0.153
+LR cohens kappa score: 0.096
+LR average precision score: 0.120
+
+-> test with 'GB'
+GB tn, fp: 298, 12
+GB fn, tp: 9, 2
+GB f1 score: 0.160
+GB cohens kappa score: 0.126
+
+-> test with 'KNN'
+KNN tn, fp: 266, 44
+KNN fn, tp: 9, 2
+KNN f1 score: 0.070
+KNN cohens kappa score: 0.016
+
+
+------ Step 4/5: Slice 5/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1196 synthetic samples
+-> test with 'LR'
+LR tn, fp: 182, 124
+LR fn, tp: 5, 4
+LR f1 score: 0.058
+LR cohens kappa score: 0.005
+LR average precision score: 0.056
+
+-> test with 'GB'
+GB tn, fp: 278, 28
+GB fn, tp: 9, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.045
+
+-> test with 'KNN'
+KNN tn, fp: 248, 58
+KNN fn, tp: 8, 1
+KNN f1 score: 0.029
+KNN cohens kappa score: -0.021
+
+
+====== Step 5/5 =======
+-> Shuffling data
+-> Spliting data to slices
+
+------ Step 5/5: Slice 1/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 194, 116
+LR fn, tp: 5, 6
+LR f1 score: 0.090
+LR cohens kappa score: 0.029
+LR average precision score: 0.070
+
+-> test with 'GB'
+GB tn, fp: 303, 7
+GB fn, tp: 10, 1
+GB f1 score: 0.105
+GB cohens kappa score: 0.079
+
+-> test with 'KNN'
+KNN tn, fp: 270, 40
+KNN fn, tp: 9, 2
+KNN f1 score: 0.075
+KNN cohens kappa score: 0.022
+
+
+------ Step 5/5: Slice 2/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 202, 108
+LR fn, tp: 5, 6
+LR f1 score: 0.096
+LR cohens kappa score: 0.036
+LR average precision score: 0.086
+
+-> test with 'GB'
+GB tn, fp: 290, 20
+GB fn, tp: 9, 2
+GB f1 score: 0.121
+GB cohens kappa score: 0.079
+
+-> test with 'KNN'
+KNN tn, fp: 256, 54
+KNN fn, tp: 8, 3
+KNN f1 score: 0.088
+KNN cohens kappa score: 0.033
+
+
+------ Step 5/5: Slice 3/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 170, 140
+LR fn, tp: 0, 11
+LR f1 score: 0.136
+LR cohens kappa score: 0.077
+LR average precision score: 0.235
+
+-> test with 'GB'
+GB tn, fp: 293, 17
+GB fn, tp: 7, 4
+GB f1 score: 0.250
+GB cohens kappa score: 0.215
+
+-> test with 'KNN'
+KNN tn, fp: 272, 38
+KNN fn, tp: 8, 3
+KNN f1 score: 0.115
+KNN cohens kappa score: 0.065
+
+
+------ Step 5/5: Slice 4/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1194 synthetic samples
+-> test with 'LR'
+LR tn, fp: 193, 117
+LR fn, tp: 3, 8
+LR f1 score: 0.118
+LR cohens kappa score: 0.058
+LR average precision score: 0.174
+
+-> test with 'GB'
+GB tn, fp: 297, 13
+GB fn, tp: 8, 3
+GB f1 score: 0.222
+GB cohens kappa score: 0.189
+
+-> test with 'KNN'
+KNN tn, fp: 269, 41
+KNN fn, tp: 9, 2
+KNN f1 score: 0.074
+KNN cohens kappa score: 0.021
+
+
+------ Step 5/5: Slice 5/5 -------
+-> Reset the GAN
+-> Train generator for synthetic samples
+-> create 1196 synthetic samples
+-> test with 'LR'
+LR tn, fp: 221, 85
+LR fn, tp: 3, 6
+LR f1 score: 0.120
+LR cohens kappa score: 0.072
+LR average precision score: 0.126
+
+-> test with 'GB'
+GB tn, fp: 291, 15
+GB fn, tp: 9, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.037
+
+-> test with 'KNN'
+KNN tn, fp: 267, 39
+KNN fn, tp: 8, 1
+KNN f1 score: 0.041
+KNN cohens kappa score: -0.006
+
+### Exercise is done.
+
+-----[ LR ]-----
+maximum:
+LR tn, fp: 221, 142
+LR fn, tp: 6, 11
+LR f1 score: 0.153
+LR cohens kappa score: 0.096
+LR average precision score: 0.312
+
+
+average:
+LR tn, fp: 196.76, 112.44
+LR fn, tp: 3.16, 7.44
+LR f1 score: 0.113
+LR cohens kappa score: 0.056
+LR average precision score: 0.146
+
+
+minimum:
+LR tn, fp: 168, 85
+LR fn, tp: 0, 4
+LR f1 score: 0.058
+LR cohens kappa score: 0.005
+LR average precision score: 0.056
+
+
+-----[ GB ]-----
+maximum:
+GB tn, fp: 305, 28
+GB fn, tp: 11, 4
+GB f1 score: 0.296
+GB cohens kappa score: 0.267
+
+
+average:
+GB tn, fp: 296.52, 12.68
+GB fn, tp: 9.0, 1.6
+GB f1 score: 0.127
+GB cohens kappa score: 0.094
+
+
+minimum:
+GB tn, fp: 278, 5
+GB fn, tp: 7, 0
+GB f1 score: 0.000
+GB cohens kappa score: -0.045
+
+
+-----[ KNN ]-----
+maximum:
+KNN tn, fp: 276, 58
+KNN fn, tp: 11, 4
+KNN f1 score: 0.148
+KNN cohens kappa score: 0.099
+
+
+average:
+KNN tn, fp: 266.4, 42.8
+KNN fn, tp: 8.68, 1.92
+KNN f1 score: 0.069
+KNN cohens kappa score: 0.016
+
+
+minimum:
+KNN tn, fp: 248, 34
+KNN fn, tp: 7, 0
+KNN f1 score: 0.000
+KNN cohens kappa score: -0.056
+
